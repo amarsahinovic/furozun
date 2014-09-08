@@ -1,4 +1,4 @@
-inazuma
+Furōzun
 =======
 
-Static site generator for my homepage + content
+Simple static site generator for my homepage
