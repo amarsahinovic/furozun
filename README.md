@@ -1,4 +1,9 @@
 Furōzun
 =======
 
-Simple static site generator for my homepage
+Simple static site generator.
+
+TODO:
+
+ - Make init command
+ - Write some instructions

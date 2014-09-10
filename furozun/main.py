@@ -26,7 +26,7 @@ FREEZER_DESTINATION = get_path('build')
 FUROZUN_TEMPLATE_DIR = get_path('templates')
 FUROZUN_STATIC_DIR = get_path('static')
 
-app = Flask(__name__, 
+app = Flask(__name__,
             static_folder=FUROZUN_STATIC_DIR,
             template_folder=FUROZUN_TEMPLATE_DIR)
 
@@ -48,8 +48,11 @@ def page(path):
     template = page.meta.get('template', 'page.html')
     return render_template(template, page=page)
 
-if __name__ == '__main__':
+def main():
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
         app.run(port=8000)
+
+if __name__ == '__main__':
+    main()
