@@ -1,4 +1,4 @@
 include README.md
 include requirements.txt
 
-recursive-include furozun/site_template *.html *.md *.css .empty
+recursive-include furozun/site_template *.html *.md *.css .empty .furozun
