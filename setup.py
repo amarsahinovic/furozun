@@ -28,5 +28,19 @@ setup(
             'furozun = furozun.main:main'
         ]
     },
-    install_requires=[],
+    dependency_links=[
+        'https://github.com/SimonSapin/Flask-FlatPages/archive/master.zip#egg=Flask-FlatPages'
+    ],
+    install_requires=[
+        'Flask==0.10.1',
+        'Flask-FlatPages',
+        'Frozen-Flask==0.11',
+        'Jinja2==2.7.3',
+        'Markdown==2.4.1',
+        'MarkupSafe==0.23',
+        'PyYAML==3.11',
+        'Pygments==1.6',
+        'Werkzeug==0.9.6',
+        'itsdangerous==0.24',
+    ],
 )

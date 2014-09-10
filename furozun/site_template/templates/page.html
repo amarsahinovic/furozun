@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block content %}
+<header>
+    <h1><a href="{{ url_for("page", path=page.path) }}" id="page-title">{{ page.title }}</a></h1>
+    <time datetime="{{ page.date.isoformat() }}">{{ page.date }}</time>
+</header>
+<article>
+    {{ page.html|safe }}
+</article>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+{% if pages %}
+    <section id="article-list">
+        <h2>Blog posts</h2>
+        <ol>
+        {% for page in pages %}
+            <li><a href="{{ url_for("page", path=page.path) }}" rel="bookmark" title="Permalink to {{ page.title|striptags }}">{{ page.title }}</a></li>
+        {% endfor %}
+        </ol>
+    </section><!-- #article-list -->
+{% endif %}
+{% endblock content %}
