@@ -32,7 +32,7 @@ setup(
         'https://github.com/SimonSapin/Flask-FlatPages/archive/master.zip#egg=Flask-FlatPages'
     ],
     install_requires=[
-        'Flask==0.10.1',
+        'Flask==1.0',
         'Flask-FlatPages',
         'Frozen-Flask==0.11',
         'Jinja2==2.7.3',
