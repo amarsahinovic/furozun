@@ -35,7 +35,7 @@ setup(
         'Flask==0.10.1',
         'Flask-FlatPages',
         'Frozen-Flask==0.11',
-        'Jinja2==2.7.3',
+        'Jinja2==2.11.3',
         'Markdown==2.4.1',
         'MarkupSafe==0.23',
         'PyYAML==3.11',
