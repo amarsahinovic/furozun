@@ -38,7 +38,7 @@ setup(
         'Jinja2==2.7.3',
         'Markdown==2.4.1',
         'MarkupSafe==0.23',
-        'PyYAML==3.11',
+        'PyYAML==5.4',
         'Pygments==1.6',
         'Werkzeug==0.9.6',
         'itsdangerous==0.24',
