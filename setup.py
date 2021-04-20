@@ -40,7 +40,7 @@ setup(
         'MarkupSafe==0.23',
         'PyYAML==3.11',
         'Pygments==1.6',
-        'Werkzeug==0.9.6',
+        'Werkzeug==0.15.3',
         'itsdangerous==0.24',
     ],
 )
